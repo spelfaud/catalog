@@ -1,0 +1,10 @@
+apache:
+  image: casdr/kig-apache
+  environment:
+    - REPO_URL=${repo_url}
+
+lb:
+  image: rancher/lb-service-haproxy
+  ports:
+    - "${host_port}"
+
