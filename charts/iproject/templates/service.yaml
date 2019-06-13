@@ -3,16 +3,12 @@ kind: Service
 metadata:
   name: rancher-service
   labels:
-    app: rancher
+    app: nginx
 spec:
   ports:
   - port: 80
     targetPort: 80
     protocol: TCP
     name: http
-  - port: 443
-    targetPort: 443
-    protocol: TCP
-    name: https
   selector:
-    app: rancher
+    app: nginx
