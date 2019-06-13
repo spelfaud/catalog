@@ -8,9 +8,7 @@ icon: https://github.com/rancher/ui/blob/master/public/assets/images/logos/welco
 keywords:
   - rancher
 sources:
-  - https://github.com/rancher/rancher
+  - https://github.com/rancher/rancherddd
 maintainers:
   - name: jgreat
     email: jason.greathouse@rancher.com
-  - name: billmaxwell
-    email: bill.maxwell@rancher.com
