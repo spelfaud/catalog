@@ -1,4 +1,4 @@
-apiVersion: v12ss
+apiVersion: v1
 name: rancherzzz
 description: Installsssss Rancher Server to manage Kubernetes clusters across providers.
 version: 8.0.0
