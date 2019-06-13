@@ -1,17 +1,17 @@
 kind: Deployment
 apiVersion: extensions/v1beta1
 metadata:
-  name: rancher
+  name: rancsfsdfher
 spec:
   replicas: {{ .Values.replicas }}
   template:
     metadata:
       labels:
-        app: rancher
+        app: ranfdfscher
     spec:
-      serviceAccountName: rancher-admin
+      serviceAccountName: rancher-admdfsfin
       containers:
-      - image: rancher/rancher:{{ .Values.rancher_image_tag }}
+      - image: ranchdsder/rancher:{{ .Values.rancher_image_tag }}
         name: rancher-server
         ports:
         - containerPort: 80
@@ -19,27 +19,3 @@ spec:
         - containerPort: 443
           protocol: TCP
         args:
-{{- if eq .Values.ingress.tls "publicCA" }}
-        # Clear ca certs for public trusted CAs
-        - "--no-cacerts"
-{{- end }}
-{{- if eq .Values.ingress.tls "letsEncrypt" }}
-        # Clear ca certs for letsEncrypt trusted CA
-        - "--no-cacerts"
-{{- end }}
-{{- if .Values.debug }}
-        - "--debug"
-{{- end }}
-        - "--http-listen-port=80"
-        - "--https-listen-port=443"
-        livenessProbe:
-          tcpSocket:
-            port: 80
-          initialDelaySeconds: 60
-          periodSeconds: 30
-        readinessProbe:
-          tcpSocket:
-            port: 80
-          initialDelaySeconds: 5
-          periodSeconds: 30
-        resources:
