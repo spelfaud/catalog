@@ -1,0 +1,10 @@
+name: I-Project
+description: Kant en klare webserver voor het I-Project.
+version: 1.0.0
+home: https://www.dream-it.cloud
+icon: https://github.com/rancher/ui/blob/master/public/assets/images/logos/welcome-cow.svg
+keywords:
+  - i-project
+maintainers:
+  - name: Dream-IT 
+
