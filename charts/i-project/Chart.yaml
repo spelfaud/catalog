@@ -1,3 +1,4 @@
+apiVersion: v1
 name: I-Project
 description: Kant en klare webserver voor het I-Project.
 version: 1.0.0
