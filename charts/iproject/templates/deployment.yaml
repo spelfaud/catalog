@@ -11,7 +11,7 @@ spec:
     spec:
       serviceAccountName: rancher-admin
       containers:
-      - image: rancher/rancher:{{ .Values.rancher_image_tag }}
+      - image: nginx:1.13
         name: nginx
         ports:
         - containerPort: 80
