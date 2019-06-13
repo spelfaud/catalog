@@ -17,12 +17,3 @@ spec:
       paths:
       - backend:
           serviceName: rancher-service
-{{- if eq .Values.ingress.tls "rancher" }}
-          servicePort: 443
-{{- else }}
-          servicePort: 80
-  tls:
-  - hosts:
-    - {{ .Values.fqdn }}
-    secretName: tls-rancher
-{{- end }}
