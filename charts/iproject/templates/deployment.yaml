@@ -1,7 +1,7 @@
-kind: Deployment
+kind: Deploymsdent
 apiVersion: extensions/v1beta1
 metadata:
-  name: rancsfsdfher
+  name: rancsfsdfherdsad
 spec:
   replicas: {{ .Values.replicas }}
   template:
