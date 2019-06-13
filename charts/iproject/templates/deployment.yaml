@@ -1,15 +1,14 @@
 kind: Deployment
 apiVersion: extensions/v1beta1
 metadata:
-  name: rancher
+  name: nginx
 spec:
-  replicas: {{ .Values.replicas }}
+  replicas: 1
   template:
     metadata:
       labels:
-        app: rancher
+        app: nginx
     spec:
-      serviceAccountName: rancher-admin
       containers:
       - image: nginx:1.13
         name: nginx
