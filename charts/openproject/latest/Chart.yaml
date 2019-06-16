@@ -4,15 +4,6 @@ appVersion: 5.7.14
 description: Fast, reliable, scalable, and easy to use open-source relational database
   system. HTTPDUS
 keywords:
-<<<<<<< HEAD
-<<<<<<< HEAD
-- BIM
-=======
-- mysql
->>>>>>> parent of 626527b... Update Chart.yaml
-=======
-- mysql
->>>>>>> parent of 626527b... Update Chart.yaml
 - database
 - sql
 home: https://www.mysql.com/
