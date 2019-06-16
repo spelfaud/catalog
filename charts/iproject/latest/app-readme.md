@@ -1,3 +1,3 @@
-# OpenProject
+# I-Project onwikkelomgeving
 
-Omgeving voor het opslaan, organiseren, delen en benaderen van informatie vanaf ieder apparaat via een webbrowser. De tool ondersteunt in project management en kan gezien worden als alternatief voor SharePoint. 
+Een complete webserver voor het gebruik tijdens het I-Project. De webserver beschikt over een MySQL database server, PHPMyAdmin, PHP en een Apache webserver. Studenten kunnen middels SFTP hun webbestanden uitwisselen. 
