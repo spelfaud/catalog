@@ -19,7 +19,7 @@ questions:
   max: 32767
   label: Poortnummer SFTP
 
-  - variable: password.command
+- variable: password.command
   default: ""
   description: "Geef een wachtwoord op voor SFTP"
   type: string
