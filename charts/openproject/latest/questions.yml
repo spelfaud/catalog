@@ -30,8 +30,6 @@ questions:
     description: "If undefined or null, uses the default StorageClass. Defaults to null."
     type: storageclass
     label: Default storageClass
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 - variable: service.nodePort
   default: ""
@@ -40,9 +38,6 @@ questions:
   min: 30000
   max: 32767
   label: Service NodePort number
-=======
-=======
->>>>>>> parent of 7654741... Node port
 - variable: service.port
   default: "3306"
   description: "Service port for access to MySQL"
@@ -69,7 +64,3 @@ questions:
     min: 30000
     max: 32767
     label: Service NodePort number
-<<<<<<< HEAD
->>>>>>> parent of 7654741... Node port
-=======
->>>>>>> parent of 7654741... Node port
