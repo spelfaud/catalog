@@ -8,6 +8,7 @@ spec:
   type: {{ .Values.service.type }}
   ports:
   - name: httpd
+    port: 
     targetPort: httpd
   selector:
     app: httpd
