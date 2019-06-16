@@ -8,10 +8,6 @@ spec:
   type: {{ .Values.service.type }}
   ports:
   - name: httpd
-    port: {{ .Values.service.port }}
     targetPort: httpd
-    {{- if .Values.service.nodePort }}
-    nodePort: {{ .Values.service.nodePort }}
-    {{- end }}
   selector:
     app: httpd
