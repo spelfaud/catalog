@@ -9,4 +9,4 @@ questions:
   type: int
   min: 30000
   max: 32767
-  label: Service NodePort number
+  label: Poortnummer
