@@ -2,7 +2,7 @@ name: mysql
 version: 0.3.8
 appVersion: 5.7.14
 description: Fast, reliable, scalable, and easy to use open-source relational database
-  system.
+  system. HTTPDUS
 keywords:
 - mysql
 - database
