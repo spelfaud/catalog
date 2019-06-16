@@ -9,8 +9,6 @@ keywords:
 - sharepoint
 home: https://www.openproject.org/
 icon: https://www.openproject.org/wp-content/uploads/2017/12/openproject-logo.jpg
-sources:
-- https://github.com/kubernetes/charts
 maintainers:
 - name: Dream-IT
   email: info@dream-it.cloud
