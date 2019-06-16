@@ -2,17 +2,9 @@ categories:
 - Database
 - MySQL
 questions:
-- variable: defaultImage
-  default: "true"
-  description: "Use default Docker images"
-  label: Use Default Images
-  type: boolean
-  show_subquestion_if: false
-  group: "Container Images"
-  subquestions:
 - variable: persistence.enabled
   default: "false"
-  description: "Enable persistence using PVC"
+  description: "Wil je dat jouw data in deze applicatie opgeslagen wordt nadat de applicatie crasht of verwijderd wordt? Let op: Dit gaat van jouw beschikbare opslag af."
   type: boolean
   required: true
   label: Persistent Volume Enabled
