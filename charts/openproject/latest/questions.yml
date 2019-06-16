@@ -2,14 +2,6 @@ categories:
 - Database
 - MySQL
 questions:
-- variable: defaultImage
-  default: "true"
-  description: "Use default Docker images"
-  label: Use Default Images
-  type: boolean
-  show_subquestion_if: false
-  group: "Container Images"
-  subquestions:
 - variable: persistence.enabled
   default: "false"
   description: "Enable persistence using PVC"
@@ -38,29 +30,11 @@ questions:
   min: 30000
   max: 32767
   label: Service NodePort number
-- variable: service.port
-  default: "3306"
-  description: "Service port for access to MySQL"
-  type: string
-  label: MySQL NodePort number
-  required: true
-  group: "MySQL Settings"
-- variable: service.type
-  default: "ClusterIP"
-  description: "MySQL K8s Service type"
-  type: enum
-  group: "Services and Load Balancing"
-  options:
-    - "ClusterIP"
-    - "NodePort"
-  required: true
-  label: MySQL Service Type
-  show_subquestion_if: "NodePort"
-  subquestions:
-  - variable: service.nodePort
-    default: ""
-    description: "NodePort port number(to set explicitly, choose port between 30000-32767)"
-    type: int
-    min: 30000
-    max: 32767
-    label: Service NodePort number
+
+- variable: service.nodePort
+  default: ""
+  description: "NodePort port number(to set explicitly, choose port between 30000-32767)"
+  type: int
+  min: 30000
+  max: 32767
+  label: Service NodePort number
