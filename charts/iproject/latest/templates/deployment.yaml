@@ -1,0 +1,19 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: iproject
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: iproject
+    spec:
+      containers:
+      - name: iproject
+        image: dreamithan/iproject:latest
+        ports:
+        - name: iproject
+          containerPort: 80
+        - name: iproject
+          containerPort: 22
