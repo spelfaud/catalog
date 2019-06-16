@@ -1,17 +1,17 @@
 apiVersion: apps/v1beta1
 kind: Deployment
 metadata:
-  name: httpd
+  name: openproject
 spec:
   replicas: 1
   template:
     metadata:
       labels:
-        app: httpd
+        app: openproject
     spec:
       containers:
-      - name: httpd
-        image: httpd:2.4
+      - name: openproject
+        image: openproject/community:8
         ports:
-        - name: httpd
+        - name: openproject
           containerPort: 80
