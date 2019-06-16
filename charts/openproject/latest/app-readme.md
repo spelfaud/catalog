@@ -1,7 +1,3 @@
-# MySQL
+# OpenProject
 
-[MySQL](https://MySQL.org) is one of the most popular database servers in the world. Notable users include Wikipedia, Facebook and Google.
-
-## Introduction
-
-This chart bootstraps a single node MySQL deployment on a [Kubernetes](http://kubernetes.io) cluster using the [Helm](https://helm.sh) package manager.
+Omgeving voor het opslaan, organiseren, delen en benaderen van informatie vanaf ieder apparaat via een webbrowser. De tool ondersteunt in project management en kan gezien worden als alternatief voor SharePoint. 
