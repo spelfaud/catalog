@@ -5,8 +5,10 @@ metadata:
   labels:
     app: httpd
 spec:
-  type: {{ .Values.service.type }}
+  type: NodePort
   ports:
   - name: httpd
+    port: {{ .Values.service.port }}
+    targetPort: httpd
   selector:
     app: httpd
