@@ -6,6 +6,5 @@ metadata:
     app: httpd
 spec:
   type: {{ .Values.service.type }}
-  ports:
   selector:
     app: httpd
