@@ -1,20 +1,14 @@
-name: mysql
-version: 0.3.8
+name: OpenProjects
+version: 1.0.0
 appVersion: 5.7.14
-description: Fast, reliable, scalable, and easy to use open-source relational database
-  system. HTTPDUS
+description: Omgeving voor het opslaan, organiseren, delen en benaderen van informatie vanaf ieder apparaat via een webbrowser. De tool ondersteunt in project management en kan gezien worden als alternatief voor SharePoint. 
 keywords:
-- mysql
-- database
-- sql
-home: https://www.mysql.com/
-icon: https://www.mysql.com/common/logos/logo-mysql-170x115.png
-sources:
-- https://github.com/kubernetes/charts
-- https://github.com/docker-library/mysql
+- bim
+- openproject
+- openprojects
+- sharepoint
+home: https://www.openproject.org
+icon: https://www.openproject.org/wp-content/uploads/2017/12/openproject-logo.jpg
 maintainers:
-- name: olemarkus
-  email: o.with@sportradar.com
-- name: viglesiasce
-  email: viglesias@google.com
-engine: gotpl
+- name: Dream-IT
+  email: infor@dream-it.cloud
